@@ -1,4 +1,4 @@
-# Terraform EC2 Provisioning
+Ec2 Manual Terraform EC2 Provisioning
 
 This repository contains Terraform configuration files to provision
 an AWS EC2 instance using Infrastructure as Code (IaC).
@@ -12,7 +12,3 @@ an AWS EC2 instance using Infrastructure as Code (IaC).
 - `main.tf` – Defines the EC2 instance
 - `provider.tf` – Configures the AWS provider
 - `.gitignore` – Excludes Terraform state files
-
-## Note
-Applying this Terraform configuration requires valid AWS credentials.
-This repository focuses on demonstrating Terraform structure and workflow.
